@@ -1,0 +1,8 @@
+POST https://httpbin.org/post
+Content-Type: application/json
+
+{
+  "orderId": "123",
+  "amount": 123.5,
+  "paymentType": "creditCard"
+}
